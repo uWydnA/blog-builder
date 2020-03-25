@@ -1,0 +1,40 @@
+ul.tagBox{
+    width: 740px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align:center;
+    overflow: hidden;
+}
+li.tagLi{
+    list-style: none;
+    position: relative;
+    float: left;
+    padding: 0 7px;
+    margin: 5px;
+    color: #fff;
+}
+.myTag{
+    border-radius: 6px;
+    box-shadow: 0 0 5px #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.myTag:hover{
+    z-index: 2!important;
+    transform: scale(1.4)!important;
+}
+.clickTag {
+    z-index: 1;
+    transform: scale(1.4)
+}
+.clickTag:hover{
+    z-index: 1 !important;
+    transform: scale(1.4)!important;
+}
+.content{
+    width: 740px;
+    margin: 0 auto;
+    padding: 10px
+}

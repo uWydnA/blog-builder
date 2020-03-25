@@ -1,0 +1,21 @@
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+}
+.title{
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    
+}
+.title h1{
+    color: #FFF!important;
+}
+.details span{
+    margin-right: 16px;
+    margin-bottom: 40px;
+}
+.content span{
+    background-color:  #202124!important;
+    color: #FFF!important;
+}

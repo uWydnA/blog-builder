@@ -1,0 +1,9 @@
+.banner {
+  height: 450px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.banner .mask {
+  height: 450px
+}

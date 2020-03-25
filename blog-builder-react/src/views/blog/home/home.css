@@ -1,0 +1,114 @@
+.site-layout-content .ant-list-item-meta-title>a {
+  color: #3eaf7c;
+  font-size: 1.2rem;
+}
+
+.site-layout-content .ant-list .ant-list-item {
+  box-shadow: 0 0 5px #000;
+  border: 0;
+  margin: 0 auto 20px;
+  padding: 16px 20px;
+  width: 100%;
+  overflow: hidden;
+  border-radius: .25rem;
+  transition: all .3s;
+}
+
+.site-layout-content .ant-list .ant-list-item:hover {
+  box-shadow: 0 0 20px #000;
+}
+
+.ant-list-something-after-last-item .ant-spin-container>.ant-list-items>.ant-list-item:last-child {
+  border: 0;
+}
+
+.blogHome .ant-pagination-prev .ant-pagination-item-link,
+.blogHome .ant-pagination-next .ant-pagination-item-link {
+  background-color: #202124;
+  box-shadow: 0 0 5px #000;
+  border: 0;
+  color: #fff;
+  font-weight: 600;
+}
+
+.site-layout-content .ant-pagination-item {
+  background-color: #202124;
+  box-shadow: 0 0 5px #000;
+  border: 0;
+  font-weight: 600;
+}
+
+.site-layout-content .ant-pagination-item a {
+  color: #fff
+}
+
+.site-layout-content .ant-pagination-item-active a {
+  color: #3eaf7c
+}
+
+.site-layout-content .ant-pagination-item:focus a,
+.site-layout-content .ant-pagination-item:hover a {
+  color: #3eaf7c
+}
+
+.site-layout-content .ant-list-item-action>li {
+  color: #888
+}
+
+.ant-pagination-prev:focus .ant-pagination-item-link,
+.ant-pagination-next:focus .ant-pagination-item-link,
+.ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination-next:hover .ant-pagination-item-link {
+  color: #3eaf7c
+}
+
+.layoutHome .carbar{
+  margin-left: 20px;
+  box-shadow: 0 0 5px #000;
+}
+
+.carbar:hover{
+  box-shadow: 0 0 20px #000;
+}
+.carbar{padding:10px 20px;}
+
+.carbar .catagory{
+  font-weight: 500;
+  line-height: 1.25rem;
+  margin:1.2rem 0 ;
+  font-size: 1rem;
+  color: #888;
+}
+
+.carbar .catalist .ant-card{
+  background-color: #202124;
+  border:0;
+  color: #3eaf7c;
+  font-size: 1rem;
+  box-shadow: 0 0 5px #000;
+  padding: .4rem .8rem;
+  margin-bottom: .9rem;
+  font-weight: 600;
+}
+.carbar .catalist .ant-card:hover{
+transform: scale(1.08);
+}
+
+.carbar .catalist .ant-card-body {
+  padding:0;
+}
+.carbar .catalist .ant-card-body .left{
+  float:left
+}
+.carbar .catalist .ant-card-body .right{
+  float:right;
+  margin-top: .1rem;
+}
+
+.ant-tag:hover:hover{
+  transform: scale(1.08);
+  opacity: 1;
+}
+.goTag:hover{
+  color:#3eaf7c
+}
